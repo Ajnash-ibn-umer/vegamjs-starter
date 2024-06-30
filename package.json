@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "tsc": "^2.0.4",
+    "typescript": "^5.4.5",
+    "vegamjs": "^1.1.16"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "tsx": "^4.15.7"
+  },
+  "type": "module"
+}
