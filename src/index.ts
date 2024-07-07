@@ -1,4 +1,4 @@
-    import Vegam from "vegamjs";
+    import {Vegam} from "vegamjs";
 
     
     const s=new Vegam()

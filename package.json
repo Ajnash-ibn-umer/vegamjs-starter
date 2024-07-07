@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "vegamjs": "^1.1.16"
+    "vegamjs": "^1.1.18"
   },
   "devDependencies": {
     "@types/node": "^20.14.10",
