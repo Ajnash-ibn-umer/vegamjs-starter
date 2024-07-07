@@ -7,6 +7,4 @@
         ctx.res.json({message:"hai"})
     })
 
-    s.listen(8000,()=>{
-        console.log("server listen to port 8000")
-    })
+    s.listen(8000)
