@@ -1,10 +1,18 @@
-    import {Vegam} from "vegamjs";
+import { Context } from "node_modules/vegamjs/dist/types/index.js";
+import { Vegam } from "../../my-framework/dist/index.js";
 
-    
-    const s=new Vegam()
+const app = new Vegam();
 
-    s.get("/",ctx=>{
-        ctx.res.json({message:"hai"})
-    })
+app.get("/", (ctx) => {
+  ctx.res.json({ message: "hai" });
+});
 
-    s.listen(8000)
+
+
+
+app.post("/", (ctx: Context) => {
+  console.log(ctx.req.body);
+  return ctx.res.json(ctx.req.body);
+});
+app.listen(8002);
+
