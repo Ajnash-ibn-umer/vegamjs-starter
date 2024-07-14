@@ -1,5 +1,4 @@
-import { Context } from "node_modules/vegamjs/dist/types/index.js";
-import { Vegam } from "../../my-framework/dist/index.js";
+import { Vegam ,Context} from "vegamjs";
 
 const app = new Vegam();
 
